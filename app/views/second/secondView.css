@@ -1,0 +1,25 @@
+.mainTitle {
+  font-weight: bold;
+  font-size: 20;
+}
+
+.mainDate {
+  font-weight: bold;
+  color: #ccc;
+}
+
+.mainSnippet {
+  margin-top: 15;
+  margin-bottom: 15;
+}
+
+.mainButton {
+  color: white;
+  background-color: #00BCD4;
+  font-size: 20;
+}
+
+StackLayout {
+  padding: 5;
+  padding-left: 15;
+}

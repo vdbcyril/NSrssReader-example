@@ -1,0 +1,8 @@
+<Page loaded="pageLoaded">
+  <StackLayout>
+    <Label text="{{passedData.title}}" textWrap="true" class="mainTitle"/>
+    <Label text="{{passedData.publishedDate}}" textWrap="true" class="mainDate"/>
+    <htmlView html="{{passedData.contentSnippet}}" class="mainSnippet"/>
+    <Button text="Click To Open" tap="openLink" class="mainButton"/>
+  </StackLayout>
+</Page>
